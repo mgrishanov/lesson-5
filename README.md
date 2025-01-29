@@ -99,3 +99,15 @@ clickhouse-client  --user default --password 12345 --format_csv_allow_single_quo
 Рассчитал среднюю стоимость блюда для меню с id 12882 на каждой странице
 
 ![18.png](src%2Fimg%2F18.png)
+
+6) Материализовать таблицу из п.5 (в виде таблицы)
+
+7) Поработать с партами. Сделать attach/detach/drop. Добавить данных в первоначально созданную таблицу.
+
+![19.png](src%2Fimg%2F19.png)
+
+![20.png](src%2Fimg%2F20.png)
+
+![21.png](src%2Fimg%2F21.png)
+
+![22.png](src%2Fimg%2F22.png)
