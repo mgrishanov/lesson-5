@@ -12,7 +12,7 @@ services:
     volumes:
       - ./etc/clickhouse-server:/etc/clickhouse-server
       - ./logs:/var/log/clickhouse-server
-      - ./data:/var/lib/clickhouse
+      - ./data:/var/lib/clickhouse/data
     cap_add:
       - SYS_NICE
       - NET_ADMIN
